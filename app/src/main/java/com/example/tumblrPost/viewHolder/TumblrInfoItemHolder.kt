@@ -15,9 +15,12 @@ class TumblrInfoItemHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         tumblrModel: TumblrPostModel?,
         clickListener: TumblrItemClickListener
     ) {
+        itemView.ivItemPlayerImage.visibility =
+            if (tumblrModel?.type == "video") View.VISIBLE else View.GONE
+
         tumblrModel?.let {
-            setTumblrText(it,itemView.tvItemData)
-            setTumblrImage(mContext,it,itemView.ivItemImage,itemView.ivItemPlayerImage)
+            setTumblrText(it, itemView.tvItemData)
+            setTumblrImage(mContext, it, itemView.ivItemImage)
         }
 
         itemView.setOnClickListener {

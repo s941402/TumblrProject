@@ -28,11 +28,9 @@ fun setTumblrText(tumblrModel: TumblrPostModel, tvItemData: AppCompatTextView) {
 fun setTumblrImage(
     mContext: Context,
     tumblrModel: TumblrPostModel,
-    ivItemImage: AppCompatImageView,
-    ivItemPlayer: AppCompatImageView
+    ivItemImage: AppCompatImageView
 ) {
-    ivItemPlayer.visibility =
-        if (tumblrModel.type == "video") View.VISIBLE else View.GONE
+
     if (tumblrModel.type == "video") {
         setImageView(
             mContext,

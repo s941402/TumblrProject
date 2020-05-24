@@ -829,7 +829,6 @@ id ivHeaderImage
 id ivItemImage
 id ivItemPlayerImage
 id ivSecondImage
-id ivSecondPlayerImage
 id left
 id line1
 id line3
@@ -913,6 +912,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id videoSecondPlayer
 id visible_removing_fragment_view_tag
 id withText
 id wrap
