@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tumblrPost"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:4:3-65
+11-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:4:20-62
+12
+13    <application
+13-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:6:3-24:17
+14        android:name="com.example.tumblrPost.commonUtil.MyApplication"
+14-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:7:7-69
+15        android:allowBackup="true"
+15-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:8:7-33
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/a3eef63a1949ce565e26a68908e433ce/core-1.2.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:10:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:11:7-52
+20        android:supportsRtl="true"
+20-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:12:7-33
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:13:7-38
+23        <activity android:name="com.example.tumblrPost.mainActivity.MainActivity" >
+23-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:14:5-20:16
+23-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:14:15-78
+24            <intent-filter>
+24-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:15:7-19:23
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:16:9-61
+25-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:16:17-58
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:18:9-69
+27-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:18:19-66
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:21:5-23:35
+31            android:name="com.example.tumblrPost.secondActivity.SecondActivity"
+31-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:22:9-76
+32            android:exported="true" />
+32-->/Users/max/Desktop/TumblrProject/app/src/main/AndroidManifest.xml:23:9-32
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/64b2d8bb90f2c039608d04ac89462f58/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/64b2d8bb90f2c039608d04ac89462f58/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+36            android:authorities="com.example.tumblrPost.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/64b2d8bb90f2c039608d04ac89462f58/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/64b2d8bb90f2c039608d04ac89462f58/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/max/.gradle/caches/transforms-2/files-2.1/64b2d8bb90f2c039608d04ac89462f58/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+39    </application>
+40
+41</manifest>
